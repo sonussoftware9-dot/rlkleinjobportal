@@ -1,0 +1,6 @@
+{
+  "name": "R.L. Klein & Associates Inc.",
+  "description": "Healthcare recruitment job portal connecting healthcare professionals with exceptional career opportunities across the United States.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
