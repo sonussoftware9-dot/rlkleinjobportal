@@ -119,7 +119,7 @@ export const AboutPage: React.FC = () => {
               With primary operational headquarters in Atlanta, GA and secondary recruitment centers in Dallas, TX and Chicago, IL, R.L. Klein &amp; Associates maintains rapid response staffing capabilities nationwide.
             </p>
             <div className="pt-2 space-y-2 text-xs text-slate-300">
-              <p className="flex items-center gap-2"><MapPin className="w-4 h-4 text-[#1D6ECF]" /> 100 Galleria Parkway, Suite 1400, Atlanta, GA 30339</p>
+              <p className="flex items-center gap-2"><MapPin className="w-4 h-4 text-[#1D6ECF]" /> 59 West 3140 North, Provo, Utah.</p>
               <p className="flex items-center gap-2"><Building2 className="w-4 h-4 text-[#1D6ECF]" /> Corporate Registration: R.L. Klein &amp; Associates Inc.</p>
             </div>
           </div>

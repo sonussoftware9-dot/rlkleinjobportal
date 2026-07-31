@@ -12,7 +12,7 @@ import {
   ChevronRight,
   Stethoscope
 } from 'lucide-react';
-
+import logo from "../../../assets/rlklein.png"
 export const Navbar: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
@@ -40,7 +40,7 @@ export const Navbar: React.FC = () => {
           <div className="flex items-center gap-6">
             <a href="tel:18005557553" className="flex items-center gap-1.5 hover:text-white transition-colors">
               <Phone className="w-3.5 h-3.5 text-[#1D6ECF]" />
-              <span className="font-semibold text-white">1-800-555-RLKLEIN</span>
+              <span className="font-semibold text-white">562-427-5577</span>
             </a>
             <a href="mailto:info@rlklein.com" className="hidden md:flex items-center gap-1.5 hover:text-white transition-colors">
               <Mail className="w-3.5 h-3.5 text-[#1D6ECF]" />
@@ -51,7 +51,7 @@ export const Navbar: React.FC = () => {
           <div className="flex items-center gap-4 text-slate-300">
             <div className="flex items-center gap-1.5 text-xs text-amber-400 font-medium">
               <ShieldCheck className="w-3.5 h-3.5" />
-              <span>Gold Seal Joint Commission Certified</span>
+              <span></span>
             </div>
             <span className="text-slate-600 hidden sm:inline">|</span>
             <Link 
@@ -70,19 +70,13 @@ export const Navbar: React.FC = () => {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#0E4C92] to-[#1D6ECF] flex items-center justify-center text-white shadow-md shadow-blue-900/20 group-hover:scale-105 transition-transform">
-              <Stethoscope className="w-5 h-5 text-white" />
-            </div>
-            <div className="flex flex-col">
-              <span className="text-lg sm:text-xl font-bold tracking-tight text-[#071C35] leading-none">
-                R.L. Klein <span className="text-[#1D6ECF] font-semibold">&amp; Associates</span>
-              </span>
-              <span className="text-[10px] font-semibold tracking-wider text-slate-500 uppercase mt-1">
-                Healthcare Recruitment Inc.
-              </span>
-            </div>
-          </Link>
+         <Link to="/" className="flex items-center">
+  <img
+    src={logo}
+    alt="R.L. Klein & Associates"
+    className="h-14 w-auto"
+  />
+</Link>
 
           {/* Desktop Links */}
           <div className="hidden lg:flex items-center gap-8">

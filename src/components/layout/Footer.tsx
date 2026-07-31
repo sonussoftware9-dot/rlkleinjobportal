@@ -10,7 +10,7 @@ import {
   ArrowRight,
   CheckCircle2
 } from 'lucide-react';
-
+import logo from "../../../assets/rlklein.png"
 export const Footer: React.FC = () => {
   return (
     <footer className="bg-[#071C35] text-slate-300 pt-16 pb-12 border-t border-slate-800">
@@ -55,12 +55,11 @@ export const Footer: React.FC = () => {
           {/* Company Bio */}
           <div className="lg:col-span-2 space-y-6">
             <Link to="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-[#1D6ECF] flex items-center justify-center text-white font-bold text-xl">
-                RL
-              </div>
-              <span className="text-xl font-bold text-white tracking-tight">
-                R.L. Klein <span className="text-[#1D6ECF]">&amp; Associates</span>
-              </span>
+              <img
+                src={logo}
+                alt="R.L. Klein & Associates"
+                className="h-14 w-auto"
+              />
             </Link>
 
             <p className="text-slate-400 text-sm leading-relaxed max-w-sm">
@@ -70,11 +69,11 @@ export const Footer: React.FC = () => {
             <div className="space-y-3 text-xs text-slate-300">
               <div className="flex items-center gap-3">
                 <MapPin className="w-4 h-4 text-[#1D6ECF] shrink-0" />
-                <span>100 Galleria Parkway, Suite 1400, Atlanta, GA 30339</span>
+                <span>59 West 3140 North, Provo, Utah.</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-[#1D6ECF] shrink-0" />
-                <a href="tel:18005557553" className="hover:text-white transition-colors">1-800-555-RLKLEIN (1-800-555-7553)</a>
+                <a href="tel:18005557553" className="hover:text-white transition-colors">562-427-5577 (1-800-555-7553)</a>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-[#1D6ECF] shrink-0" />
@@ -83,13 +82,7 @@ export const Footer: React.FC = () => {
             </div>
 
             {/* Accreditation Badge */}
-            <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800 flex items-center gap-3.5 max-w-sm">
-              <ShieldCheck className="w-8 h-8 text-amber-400 shrink-0" />
-              <div>
-                <h5 className="text-xs font-bold text-white uppercase tracking-wider">Joint Commission Accredited</h5>
-                <p className="text-[11px] text-slate-400 mt-0.5">Gold Seal of Approval for Health Care Staffing Services.</p>
-              </div>
-            </div>
+           
           </div>
 
           {/* Quick Column 1: Healthcare Disciplines */}
