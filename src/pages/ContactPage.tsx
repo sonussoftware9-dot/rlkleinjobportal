@@ -63,9 +63,9 @@ export const ContactPage: React.FC = () => {
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-[#1D6ECF] shrink-0 mt-1" />
                   <div>
-                    <strong className="text-white block">Atlanta Corporate Headquarters</strong>
-                    <p>100 Galleria Parkway, Suite 1400</p>
-                    <p>Atlanta, GA 30339</p>
+                    <strong className="text-white block">Headquarters</strong>
+                    <p>59 West 3140 North, Provo, Utah.</p>
+                  
                   </div>
                 </div>
 
@@ -73,7 +73,7 @@ export const ContactPage: React.FC = () => {
                   <Phone className="w-5 h-5 text-[#1D6ECF] shrink-0" />
                   <div>
                     <strong className="text-white block">Call Center Hotline</strong>
-                    <a href="tel:18005557553" className="hover:text-white transition-colors">1-800-555-RLKLEIN (1-800-555-7553)</a>
+                    <a href="tel:18005557553" className="hover:text-white transition-colors">562-427-5577</a>
                   </div>
                 </div>
 
@@ -89,18 +89,13 @@ export const ContactPage: React.FC = () => {
                   <Clock className="w-5 h-5 text-[#1D6ECF] shrink-0" />
                   <div>
                     <strong className="text-white block">Hours of Operation</strong>
-                    <p>Monday - Friday: 7:00 AM - 8:00 PM EST</p>
+                    <p>Monday - Saturday: 9:00 AM - 6:00 PM PST</p>
                     <p className="text-xs text-amber-300 font-semibold mt-0.5">24/7 Clinical Nurse Support for Active Travelers</p>
                   </div>
                 </div>
               </div>
 
-              <div className="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-center gap-3">
-                <ShieldCheck className="w-6 h-6 text-amber-400 shrink-0" />
-                <p className="text-xs text-slate-300">
-                  Gold Seal Joint Commission Accredited Healthcare Staffing Firm.
-                </p>
-              </div>
+              
             </div>
 
             {/* Additional Hub Locations */}

@@ -43,7 +43,7 @@ export const PrivacyPage: React.FC = () => {
 
           <section className="space-y-2">
             <h2 className="text-lg font-bold text-slate-900">5. Contact Corporate Compliance</h2>
-            <p>For questions regarding our privacy practices or data rights, contact our privacy officer at <a href="mailto:info@rlklein.com" className="text-[#0E4C92] font-bold">info@rlklein.com</a> or call 1-800-555-RLKLEIN.</p>
+            <p>For questions regarding our privacy practices or data rights, contact our privacy officer at <a href="mailto:info@rlklein.com" className="text-[#0E4C92] font-bold">info@rlklein.com</a> or call 562-427-5577.</p>
           </section>
         </div>
       </div>
